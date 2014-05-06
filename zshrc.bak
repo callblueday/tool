@@ -83,6 +83,7 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*' completer _complete _match _approximate _ignored _files
 # 修正大小写
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+
 # 使用缓存。某些命令的补全很耗时的（如 aptitude）
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ${_dir}/.zsh/cache
@@ -542,10 +543,6 @@ export -U PATH
 unset OS
 unset _zdir
 setopt nomatch
-
-source ~/.nvm/nvm.sh
-echo test
-export PYTHONPATH=/home/hujinhong/workspace/qcore
 
 # some more git aliases
 alias g='git'
