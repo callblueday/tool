@@ -1,0 +1,24 @@
+{
+  "name": "my-note",
+  "version": "0.0.0",
+  "description": "* [angularjs filter](http://docs.angularjs.org/tutorial/step_09) * [simple pagenation](http://stackoverflow.com/questions/11581209/angularjs-pagination-on-a-list-using-ng-repeater) * [pagenation filter](http://jsfiddle.net/SAWsA/11/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/callblueday/my-note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callblueday/my-note/issues"
+  },
+  "homepage": "https://github.com/callblueday/my-note",
+  "devDependencies": {
+    "connect-livereload": "^0.4.0",
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
