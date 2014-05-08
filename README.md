@@ -21,3 +21,6 @@ backfiles.
 4. 修改 `Gruntfile.js` 文件，见 `grunt-config/` 目录下的配置
 
 参考文章：http://www.bluesdream.com/blog/grunt-plugin-livereload-wysiwyg-editor.html
+
+- grunt-mustache
+  - 将模板文件转换成单个 js 字符串数据，类似，`.soy` 文件转换成 `.soy.js` 文件，便于在 js 中进行引用。
